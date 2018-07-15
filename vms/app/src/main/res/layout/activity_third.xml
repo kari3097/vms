@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Thirdactivity"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clipToPadding="true"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  Visitor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/visitorname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="  Enter your name.."
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  Host"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/hostname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="  Enter host's name.."
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  Department"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <Spinner
+                android:id="@+id/dname"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:entries="@array/department_arrays"
+                android:prompt="@string/Departments_prompt"></Spinner>
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  Company"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <Spinner
+                android:id="@+id/cname"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:entries="@array/company_arrays"
+                android:prompt="@string/Company_prompt"></Spinner>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  ID Type"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <Spinner
+                android:id="@+id/IDname"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:entries="@array/idname_arrays"
+                android:prompt="@string/IDname_prompt"></Spinner>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  ID Number"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/IDnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="  Enter number on your id.."
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  Visit Type"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <Spinner
+                android:id="@+id/vtype"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:entries="@array/vtype_arrays"
+                android:prompt="@string/Vtype_prompt"></Spinner>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  Expected Duration"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="  Enter duration for which u gonna stay.."
+                android:inputType="numberSigned" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  Meeting Location"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <Spinner
+                android:id="@+id/location"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:entries="@array/location_arrays"
+                android:prompt="@string/Location_prompt"></Spinner>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  Person Accompanying"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/persons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="  Enter number of persons"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  Remarks"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <EditText
+                android:id="@+id/remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="  Write something.."
+                android:inputType="text"/>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="  Authorization By"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Popup" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2-Way SMS" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="popup + 2-Way SMS" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="Click Button to open camera"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_weight="10"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" />
+
+            <Button
+                android:id="@+id/btnCamera"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_dark"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Open Camera"/>
+
+            <Button
+                android:id="@+id/buttonRegi"
+                android:layout_width="200dp"
+                android:layout_height="62dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="194dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="100dp"
+                android:background="@color/colorAccent"
+                android:text="Register"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

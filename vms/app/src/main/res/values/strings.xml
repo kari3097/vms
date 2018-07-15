@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">vms</string>
+
+    <string name="Departments_prompt">Choose a department</string>
+
+    <string-array name="department_arrays">
+        <item>Computer</item>
+        <item>Marketing</item>
+        <item>HR</item>
+        <item>Purchase</item>
+        <item>Logistics</item>
+
+    </string-array>
+
+    <string name="Company_prompt">Choose a department</string>
+
+    <string-array name="company_arrays">
+        <item>SNP Software</item>
+        <item>Media.net</item>
+        <item>Accenture</item>
+        <item>Quantiphi</item>
+        <item>Cognizant</item>
+
+    </string-array>
+
+    <string name="IDname_prompt">Choose a department</string>
+
+    <string-array name="idname_arrays">
+        <item>Adhar Card</item>
+        <item>Pan Card</item>
+        <item>Driving License</item>
+        <item>Passport</item>
+        <item>Voting ID</item>
+
+    </string-array>
+
+
+    <string name="Vtype_prompt">Choose a department</string>
+
+    <string-array name="vtype_arrays">
+        <item>Official</item>
+        <item>Personal</item>
+        <item>UnOfficial</item>
+        <item>Social</item>
+
+    </string-array>
+
+
+    <string name="Location_prompt">Choose a department</string>
+
+    <string-array name="location_arrays">
+        <item>Cabin</item>
+        <item>Seminar Hall</item>
+        <item>Auditoium</item>
+        <item>Main office</item>
+
+    </string-array>
+
+</resources>
